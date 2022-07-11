@@ -152,13 +152,13 @@ function renderMenuContent(data) {
     var advert1 = $('<div class="advert1"></div>');
     var advert2 = $('<div class="advert2"></div>');
     for (var i = 1; i <= 8; i++) {
-        advert1 = `<a herf="#"><img src="../img/advert${i}.jpg.webp"></a>`
+        advert1 = `<a herf="#"><img src="./img/advert${i}.jpg.webp"></a>`
         if (!(i === 9)) {
             advert.append(advert1);
         }
     }
     for (let j = 9; j <= 10; j++) {
-        advert2 = `<a herf="#"><img src="../img/advert${j}.jpg.webp"></a>`
+        advert2 = `<a herf="#"><img src="./img/advert${j}.jpg.webp"></a>`
         if (!(i === 10)) {
             advert.append(advert2);
         }

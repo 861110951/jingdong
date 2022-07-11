@@ -1,3 +1,7 @@
+$('.service-pop-item.telephone').load('./fs/quickService/telephone.html');
+$('.service-pop-item.plane').load('./fs/quickService/plane.html');
+$('.service-pop-item.hotel').load('./fs/quickService/hotel.html');
+$('.service-pop-item.game').load('./fs/quickService/game.html');
 // hover更换图片
 $('.service-item .service-ico-img-hover').hover(function () {
     $(this).addClass('service-ico-hover');
@@ -37,7 +41,3 @@ $('.close').click(function () {
     $('.services').removeClass('service-extend');
     $('.service-frame2').removeClass('frame2-important');
 })
-$('.service-pop-item.telephone').load('../fs/quickService/telephone.html')
-$('.service-pop-item.plane').load('../fs/quickService/plane.html')
-$('.service-pop-item.hotel').load('../fs/quickService/hotel.html')
-$('.service-pop-item.game').load('../fs/quickService/game.html')

@@ -1,4 +1,4 @@
-(function () {
+// (function () {
     /**
  * 三个问题: 
  * 1. 如何实现鼠标移入就有动画  不管移入几次
@@ -15,17 +15,24 @@
  */
     // logo动画效果
     $('.logo').hover(function () {
+        // animate-start 表示动画在运动的中进不去语句
         if (!$('.logo-bg').hasClass('animate-start')) {
+            // 把logo的png图片，移除掉
             $('.logo-title').removeClass('animate-end');
             $('.logo-bg').css({
-                backgroundImage: 'url("../img/jdgif.gif?v=' + new Date().getTime() + '")'
+                backgroundImage: 'url("./img/jdgif.gif?v=' + new Date().getTime() + '")'
             }).addClass('animate-start');
+            // 给gif图片添加animate-start 限制再次进入语句
             setTimeout(function () {
+                // 定时器到表示已经动画结束
                 $('.logo-bg').removeClass('animate-start');
+                // png标记动画已经结束
                 $('.logo-title').addClass('animate-end');
             }, 5000)
         }
+        //  png标记隐藏
         $('.logo-title').addClass('show-bg');
+        
     }, function () {
         if (!$('.logo-bg').hasClass('animate-start')) {
             $('.logo-title').addClass('animate-end');
@@ -92,4 +99,4 @@
         })
     })
     // 显示二维码 结束
-}())
+// }())

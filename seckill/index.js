@@ -1,5 +1,5 @@
 (function () {
-    var startTimeStr = "2022/06/28 22:00:00";
+    var startTimeStr = "2022/07/15 22:00:00";
     var startTime = new Date(startTimeStr);
     var endTime = startTime.getTime() + 2 * 60 * 60 * 1000;
     var timer = setInterval(function () {
