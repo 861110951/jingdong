@@ -1,0 +1,190 @@
+
+a.red{
+    color:#e1251b;
+}
+.position{
+    float:left;
+    color:#e1251b;
+}
+.position .position-text{
+    color:#999
+}
+.navbar{
+    float:right;
+    
+}
+.navbar li{
+    float:left;
+    position:relative;
+}
+.navbar .iconfont{
+    font-size:12px;
+}
+.spacer{
+    width:2px;
+    height:10px;
+    background-color:#ccc;
+    margin:10px 5px; 
+}
+
+.navbar .nav-item > div.dt{
+    padding:0 7px;
+    border:1px solid transparent;
+}
+.navbar .nav-item:hover .dt-icon{
+    background-color:#fff;
+    border-color:#e3e4e5;
+    border-bottom:none; 
+}
+ul.navbar .nav-item:hover .dt-icon::after{
+    content:'';
+    width:calc(100% - 2px);
+    height:3px;
+    position:absolute;
+    bottom:-1px;
+    left:1px;
+    background-color:#fff;
+    z-index:101;
+}
+.navbar .nav-item:hover .my-dropdown{
+    display:block;
+}
+.navbar .my-dropdown.my-jd{
+    width:280px; 
+}
+.navbar .my-dropdown{
+    position:absolute;
+    top:30px;
+    left:0px;
+    background-color:#fff;
+    border:1px solid #e3e4e5;
+    z-index:100;
+    display:none;
+}
+.navbar .my-dropdown a{
+    cursor:pointer;
+}
+.navbar .my-dropdown dd{
+    line-height:24px;
+    float:left;
+    white-space:nowrap;
+}
+
+.navbar .my-dropdown dl{
+    padding: 10px 0 10px 15px;
+    border-bottom:1px solid #e3e4e5;
+}
+.navbar .my-dropdown dl:last-child{
+    /* background-color:#e1251b; */
+    border-bottom:none;
+}
+.navbar .my-dropdown dt{
+    font-weight:900;
+    color:#666;
+}
+.navbar .my-dropdown.my-jd dd{
+    width:126px;
+}
+.navbar .my-dropdown.my-company{
+    width:140px;
+}
+.navbar .my-dropdown.my-company dd{
+    width:56px;
+}
+.navbar .my-dropdown.my-serve{
+    width:170px;
+    right:0px;
+    left:auto;
+}
+.navbar .my-dropdown.my-serve dd{
+    width:70px;
+}
+.navbar .my-dropdown.app{
+    width:1190px;
+    right:-84px;
+    /* left 和right同时存在作用是先设置那个 */
+    left:auto;
+    padding:15px 0;
+}
+.navbar .my-dropdown.app dl{
+    width:340px;
+    border-left:1px solid #eee;
+    border-bottom:none;
+    float:left;
+}
+.navbar .my-dropdown.app dd{
+    width:85px;
+}
+
+/* 手机京东 */
+
+.navbar .my-dropdown.mobile{
+    /* position:absolute; */
+    right:-5px;
+    left:auto;
+}
+ul.navbar .nav-item.triangle:hover .dt-triangle::after{
+    content:'';
+    width:0px;
+    height:0px;
+    border:7px solid ;
+    border-color:transparent transparent #fff transparent; 
+    position:absolute;
+    bottom:0px;
+    left:30px;
+    z-index:101;
+}
+
+.navbar .my-dropdown.mobile dl{
+    width:190px;   
+    padding:15px 0;
+    position:relative;
+}
+.my-dropdown.mobile .qrcode{
+    /* float:left; */
+    position:absolute;
+    left:5px;
+    top:14px;
+    width:74px;
+    height:74px;
+    border:1px solid #ccc;
+    background-color:#f7f7f7;
+}
+.my-dropdown.mobile .qrcode img{
+    width:70px;
+    height:70px;
+    margin:2px 0 0 2px;
+    vertical-align: middle;
+}
+.my-dropdown.mobile .mobile-info{
+    /* float:right; */
+    margin:0 10px 0 86px;
+    min-height:70px;
+}
+.my-dropdown.mobile .mobile-info dt{ 
+    font-size:12px;
+    line-height:17px;
+}
+.my-dropdown.mobile .mobile-info .tips{ 
+    margin: 3px 0;
+    line-height: 14px;
+    color: #f10214;
+}
+.my-dropdown.mobile .mobile-info .device{
+    height:25px;
+    overflow:hidden;
+}
+.my-dropdown.mobile .mobile-info .device .device-bg{
+    float:left;
+    margin-right:2px;
+    width:25px;
+    text-indent:-999px;
+    background:url(../img/mobile.png) no-repeat 0 0/100%;
+}
+.my-dropdown.mobile .mobile-info .device .device-android{
+    background-position:0 -26px;
+}
+.my-dropdown.mobile .mobile-info .device .device-ipad{
+    background-position:0 -52px;
+}
+/* 手机京东 结束 */

@@ -1,0 +1,253 @@
+/* logo样式 */
+.logo {
+    width: 190px;
+    height: 120px;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.logo-title {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 190px;
+    height: 120px;
+    background-image: url("../img/sprite.png");
+}
+
+.logo-bg {
+    text-indent: -999px;
+    overflow: hidden;
+    display: inline-block;
+    /* display:none; */
+    width: 134px;
+    height: 120px;
+    background-image: url("../img/jdgif.gif");
+    background-size: auto 100%;
+}
+
+/* logo样式结束 */
+
+/* 搜索框样式 */
+.animate-end.hover-out {
+    z-index: 1 !important;
+}
+
+.show-bg {
+    z-index: -1;
+}
+
+.search {
+    /* border: 1px solid #000; */
+    position: absolute;
+    top: 0;
+    left: 190px;
+    padding-left: 70px;
+}
+
+.search .search-box {
+    width: 546px;
+    height: 32px;
+    margin-top: 25px;
+    border: 2px solid #e2231a;
+    background-color: #fff;
+    position: relative;
+}
+
+.search .search-box input {
+    padding: 2px 44px 2px 17px;
+    width: 425px;
+    height: 26px;
+    border: 1px solid transparent;
+    line-height: 26px;
+    font-size: 12px;
+    outline: none;
+}
+
+.search .search-button {
+    position: absolute;
+    right: 0;
+    width: 58px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #e1251b;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.search .search-camera {
+    position: absolute;
+    right: 75px;
+    top: 8px;
+    width: 19px;
+    height: 15px;
+}
+
+.search .search-camera .icon-xiangji {
+    font-size: 18px;
+}
+
+.search .search-camera:hover .icon-xiangji {
+    color: #c81623;
+    font-size: 20px;
+}
+
+.search .search-button:hover {
+    background-color: #c81623;
+}
+
+.search .search-button:hover .icon-sousuo {
+    text-shadow: 2px 2px 8px #fff;
+    font-size: 18px;
+}
+
+.search .search-list {
+    width: 488px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: absolute;
+    top: 35px;
+    left: -2px;
+    display: none;
+    z-index: 90;
+}
+
+.search .search-list li {
+    line-height: 24px;
+    padding: 1px 6px;
+}
+
+.search .search-list li:hover {
+    background-color: rgb(238, 230, 230);
+}
+
+.remove-placeholder>input::placeholder {
+    opacity: -1 !important;
+}
+
+/* 搜索框样式 结束 */
+/*购物车 */
+.search .cart {
+    height: 34px;
+    width: 130px;
+    position: absolute;
+    right: -150px;
+    top: 25px;
+    text-align: center;
+    line-height: 34px;
+    color: #e1251b;
+    background-color: #fff;
+    border: 1px solid #e3e4e5;
+}
+
+.search .cart:hover {
+    box-shadow: -1px -1px 10px #e1251b,
+        inset 1px 1px 1px rgb(229, 223, 223),
+        1px 1px 10px #e1251b,
+        inset -1px -1px 1px rgb(229, 223, 223);
+}
+
+.search .cart-content {
+    position: relative;
+    display: inline-block;
+}
+
+.search .cart .iconfont {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.search .cart a {
+    color: #e1251b;
+}
+
+.search .cart .shopping-count {
+    /* display:inline-block; */
+    position: absolute;
+    top: 2px;
+    left: 13px;
+    background-color: #e1251b;
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 1px 3px;
+    border-radius: 7px;
+    text-align: center;
+    min-width: 12px;
+}
+/*购物车 结束 */
+/* 二维码 */
+.app-code{
+    position:absolute;
+    right:-296px;
+    top:5px;
+    width:76px;
+    height:76px;
+    /* border:1px solid #ccc; */
+    background-color:#fff;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+.app-code .code{
+    margin:5px auto;
+    width:66px;
+    height:66px;
+    background:url(../img/app-code.png) 0 0/100% no-repeat;
+
+}
+/* 二维码 结束*/
+
+/* 热搜关键字 */
+.hotwords {
+    position: absolute;
+    left: 260px;
+    top: 65px;
+    line-height: 20px;
+    width: 550px;
+    height: 20px;
+}
+
+.hotwords a {
+    margin-right: 10px;
+    color: #999;
+    font-weight: 700;
+}
+
+a.hotRed {
+    color: #e1251b;
+}
+
+/* 热搜关键字 结束*/
+/* 导航项目 */
+.navitems {
+    position: absolute;
+    left: 203px;
+    bottom: 0;
+    height: 40px;
+    padding-top: 20px;
+}
+
+.navitems li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    margin: 0 11px;
+}
+
+.navitems li a.hotRed {
+    color: #e1251b;
+    font-weight: 700;
+}
+
+.navitems a {
+    color: #333;
+}
+
+.navitems a:hover {
+    color: #e1251b;
+}
+
+/* 导航项目 结束 */

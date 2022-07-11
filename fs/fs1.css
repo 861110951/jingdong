@@ -1,0 +1,122 @@
+#btn{
+    position:fixed;
+    left:20px;
+    top:200px;
+    width:60px;
+    height:40px;
+    border-radius:5px;
+    background-color:aqua; 
+    line-height:40px;
+    text-align: center;
+}
+.fs-menu{
+    /* margin-top:10px; */
+    height:470px;
+    background-color:#fff;
+    padding:10px 0;
+    box-sizing: border-box;
+}
+.fs-menu li{
+    height:25px;
+    line-height:25px;
+    padding-left:18px;
+    font-size:14px;
+    color:#333;
+}
+.fs-menu li.active{
+    background-color:#d9d9d9;
+}
+.fs-menu li a{
+    color:#333;
+}
+.fs-menu li a:hover{
+    color:#c81623;
+}
+/* 列表拓展 */
+.menu-content {
+    display:none;
+    width: 1000px;
+    min-height: 470px;
+    border:1px solid #f7f7f7;
+    background-color:#fff;
+    position:absolute;
+    left:191px;
+    top:0;
+    z-index:100;
+    padding:20px 0 10px;
+    font-size:12px;
+    box-sizing: border-box;
+    box-shadow:5px 0 5px rgba(0,0,0,.3);
+    transition:top .25s ease;
+}
+.menu-content .words{
+    float:left;
+}
+/* 列表拓展 文字 */
+.menu-content .iconfont{
+    font-size:12px;
+    margin-left:3px;
+}
+.menu-content .tabs-nav{
+    padding-left:20px;
+    height:24px;
+}
+.menu-content .tabs-nav a{
+    float:left;
+    margin-right:10px;
+    padding:0 10px;
+    height:24px;
+    background-color:#333;
+    line-height:24px;
+    color:#fff;
+    border-radius:4px;
+}
+.menu-content .tabs-nav a:hover{
+    background-color:#c81623;
+}
+.menu-content .cate-detail{
+    padding:10px 0 0 20px;
+}
+.menu-content .cate-detail .cate-item{
+    overflow:hidden;
+    margin:8px 0;
+    /* line-height:32px; */
+}
+.menu-content .cate-detail .cate-item dt{
+    width:60px;
+    text-align:left;
+    float:left;
+    font-weight:900;
+    white-space:nowrap;
+}
+.menu-content .cate-detail .cate-item a{
+    display:inline-block;
+    white-space:nowrap;
+    height:16px;
+    line-height:16px;
+    margin:3px 0;
+    padding:0 7px;
+    color:#666;
+}
+.menu-content .cate-detail .cate-item dd{
+    overflow:hidden;
+    max-width:710px;
+    /* padding:5px 0; */
+}
+/* 列表拓展 结束 */
+/* 列表拓展 广告 */
+.menu-content .advert{
+    float:right;
+    width:198px;
+}
+.menu-content .advert1{
+    font-size: 0;
+    width:168px;
+    margin:auto;
+}
+.menu-content .advert2{
+    margin:10px auto 0;
+    width:168px;
+}
+/* 列表拓展 广告结束 */
+/* 列表拓展 结束*/

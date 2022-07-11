@@ -1,0 +1,80 @@
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.content-charges {
+    position: relative;
+    height: 146px;
+    color: #666;
+    font-size: 12px;
+}
+
+.content-charges label {
+    display: inline-block;
+    width: 34px;
+
+}
+
+.content-charges .form-top {
+    margin-top: 5px;
+    height: auto;
+    overflow: hidden;
+}
+
+.content-charges .form-top dt,
+.content-charges .form-top .inp,
+.form-bottom dt,
+.form-bottom .msg-price-box,
+.content-charges .msg-price-box,
+.btn-wrap {
+    float: left;
+    line-height: 20px;
+    height: 20px;
+}
+
+.content-charges .form-bottom {
+    height: auto;
+    margin-top: 8px;
+}
+.content-charges .form-top .inp .input-phone {
+    float: left;
+    color: #c2c2c2;
+    width: 124px;
+    margin: 0;
+    border: 1px solid #e7e7e7;
+    text-indent: 0.6em;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.content-charges .form-top .inp .input-phone:focus {
+    border: 2px solid #000;
+}
+
+.content-charges .form-bottom select {
+    height: 20px;
+    width: 124px;
+    border-radius: 4px;
+    border: 1px solid #e7e7e7;
+    letter-spacing: 0;
+}
+
+.content-charges .msg-price-box {
+    color: #e40015;
+    padding-top:5px;
+    width:100%
+}
+.content-charges .btn-wrap{
+    margin-top: 5px;
+    height: 20px;
+    width: 60px;
+    line-height:18px;
+    text-align: center;
+}
+.content-charges .btn-wrap .btn-submit{
+    background-color:#e40015;
+    color:#fff;
+    border-radius:10px;
+}

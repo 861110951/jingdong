@@ -1,0 +1,38 @@
+.iframe-hidden {
+    /* visibility: hidden; */
+    display:none;
+}
+
+.content-iframe .iframe-show {
+    /* visibility: visible;*/
+    display:block; 
+}
+
+.tab-iframe {
+    height: 21px;
+    padding-top: 12px;
+    overflow: hidden;
+}
+
+.tab-iframe li {
+    float: left;
+    width: 56px;
+    padding:0 8px;
+}
+
+.tab-iframe li.tab-item-selected a {
+    color: #e40015;
+}
+
+.tab-iframe li a {
+    display: block;
+    line-height: 16px;
+    color: #666;
+    white-space: nowrap;
+    height: 21px;
+}
+
+
+.tab-iframe li.tab-item-selected a {
+    color: #e40015;
+}

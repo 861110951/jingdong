@@ -1,0 +1,81 @@
+a.seckill-countdown {
+    color: #fff;
+}
+
+.seckill-countdown {
+    position: relative;
+    float: left;
+    width: 190px;
+    height: 100%;
+    background-color: #e83632;
+    background-image: url(../img/seckill-left-bg.png);
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.seckill-countdown .countdown-title {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 31px;
+}
+
+.seckill-countdown .countdown-desc {
+    margin-top: 110px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.seckill-countdown .countdown-desc strong {
+    font-size: 18px;
+    padding-right: 2px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -1px;
+    font-weight: 700;
+}
+
+.seckill-countdown .countdown-main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    display: block;
+}
+
+.timmer .timmer-unit {
+    position: relative;
+    float: left;
+    background-color: #2f3430;
+    font-weight: 700;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size:20px;
+}
+
+
+
+.timmer .timmer-unit:after {
+    content: ':';
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    top: 0;
+    right: -19px;
+    /* font-size:10px; */
+}
+
+.timmer .timmer-unit:last-child {
+    margin-right: 0px;
+}
+
+.timmer .timmer-unit:last-child:after {
+    content: '';
+}
